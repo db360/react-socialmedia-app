@@ -85,7 +85,7 @@ const CreatePin = ({ user }) => {
   return (
     <div className="relative flex flex-col justify-center items-center mt-5 lg:h-full">
       {fields && (
-        <p className="absolute top-40 text-red-500 mb-5 text-xl transition-all duration-150 ease-in bg-black p-3 rounded-md">
+        <p className="z-50 absolute top-40 text-red-500 mb-5 text-xl transition-all duration-150 ease-in bg-black p-3 rounded-md">
           Please fill in all the fields
         </p>
       )}
